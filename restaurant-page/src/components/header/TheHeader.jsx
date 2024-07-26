@@ -1,13 +1,13 @@
-import React from 'react';
-import NavBar from '../nav-bar/navBar';
+import React from 'react'
+import NavBar from '../nav-bar/navBar'
 
 const TheHeader = () => {
   return (
-    <header>
-      <h1>Mi Aplicación</h1>
+    <header className="header">
+      <h1 className="header__title">Restaurante Euralio</h1>
       <NavBar />
     </header>
-  );
-};
+  )
+}
 
-export default TheHeader;
+export default TheHeader

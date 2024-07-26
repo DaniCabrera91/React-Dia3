@@ -3,11 +3,17 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
-        <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/reserve">Reservar</Link></li>
-        <li><Link to="/about">Acerca de</Link></li>
+        <li>
+          <Link to="/">Inicio</Link>
+        </li>
+        <li>
+          <Link to="/reserve">Reserva</Link>
+        </li>
+        <li>
+          <Link to="/about">Conócenos</Link>
+        </li>
       </ul>
     </nav>
   );

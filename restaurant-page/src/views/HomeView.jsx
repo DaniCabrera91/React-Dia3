@@ -1,13 +1,23 @@
 import React from 'react';
 
-const HomeView = () => {
+const HomeView = ({ dishes }) => {
   return (
-    <div>
-      <h1>Página de Inicio</h1>
-      <p>Bienvenido a mi aplicación. Aquí encontrarás información sobre...</p>
+    <div className="home__view">
+      <h1 className='home__title'> Página de Inicio</h1>
+      <ul className="dish-list">
+        {dishes.map((dish) => (
+          <li key={dish.id} className="dish-card">
+            <h3>{dish.name}</h3>
+            <p>{dish.description}</p>
+            <p>Precio: ${dish.price}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
 
 export default HomeView;
 
+      
+  

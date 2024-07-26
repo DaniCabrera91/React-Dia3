@@ -1,0 +1,17 @@
+@import 'variables';
+
+.reserve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+.reserve__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: $hover-color;
+}
+
