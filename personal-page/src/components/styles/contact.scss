@@ -1,0 +1,14 @@
+@import 'variables';
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact__title{
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: $hover-color;
+}
+

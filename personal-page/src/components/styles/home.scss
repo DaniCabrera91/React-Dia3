@@ -1,0 +1,22 @@
+@import 'variables';
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .home__title {
+        margin-bottom: 3rem;
+        padding: 1rem;
+        background-color: $hover-color;
+    };
+
+    p {
+        font-size: 1.5rem;
+        color: $secondary-color;
+      };
+}
+
+
+

@@ -1,0 +1,23 @@
+@import "variables";
+
+.about__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        margin-bottom: 3rem;
+        padding: 1rem;
+        background-color: $hover-color
+    };
+
+    p{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        font-size: 1.5rem;
+        };
+}
+
